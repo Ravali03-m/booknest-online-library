@@ -1,0 +1,48 @@
+/* =================================
+   BOOKNEST - GLOBAL COLOR VARIABLES
+================================= */
+
+:root {
+    --primary-color: #263B30;
+    --background-color:#234B3B;
+    --secondary-color: #8BA888;
+    --accent-color: #D5E6B8;
+    --text-color: #F2F3E9;
+    --white-color: #FFFFFF;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 22px 60px;
+    background-color:var(--background-color);
+
+}
+.logo a {
+    color:var(--text-color);
+    font-weight:bold;
+    font-size:30px;
+    text-decoration:none;
+    transition: color 0.3s ease;
+}
+.logo a:hover{
+    color:var(--secondary-color);
+    
+}
+.navlinks{
+    display:flex;
+    align-items:center;
+    list-style:none;
+    gap:20px;
+}
+.navlinks a {
+     color:var(--text-color);
+     text-decoration:none;
+     font-size:20px;   
+     transition: color 0.3s ease;
+
+}
+.navlinks a:hover{
+color:var( --secondary-color);
+}
